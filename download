@@ -1,0 +1,24 @@
+# ELCANO — Esquema Salesforce
+
+Visualización interactiva del esquema de objetos y relaciones de la org Salesforce ELCANO (SMD).
+
+## Características
+
+- **Grafo interactivo** con 102 objetos y 209 relaciones
+- **Modo oscuro / claro**
+- **Perfiles de usuario** por área (Ventas, Legal, ATC, Negociación, etc.)
+- **Multi-selección** hasta 4 objetos con análisis de rutas (Ctrl+clic)
+- **Filtros** por categoría (Custom, Standard, Metadata, BigObject, Evento)
+
+## Uso
+
+Abre el enlace de GitHub Pages. Todo funciona en el navegador, sin instalación.
+
+Los perfiles que crees se guardan en el navegador (localStorage).
+
+## Actualizar
+
+Para actualizar el esquema cuando cambie la org:
+1. Genera un nuevo `index.html` con el script de build
+2. Reemplaza el archivo en este repositorio (arrastra encima del existente en GitHub)
+3. GitHub Pages se actualiza automáticamente en ~1 minuto
